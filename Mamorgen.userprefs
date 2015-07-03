@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Mamorgen/Mamorgen.iOS/Mamorgen.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/4.5/Microsoft.CSharp.targets">
+    <Files>
+      <File FileName="Mamorgen/Mamorgen.iOS/Info.plist" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/4.5/Microsoft.CSharp.targets" Line="29" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
