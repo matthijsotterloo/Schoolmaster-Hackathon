@@ -5,10 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6C74E472-383E-457C-A778-636054313AD7}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-<<<<<<< HEAD
-    <ProjectGuid>{2C7C3898-23FB-44AF-A311-BF288D8AA2A5}</ProjectGuid>
-=======
->>>>>>> 1a6a1996bfce289616428ece22f89056e8885a16
+    <ProjectGuid>{6C74E472-383E-457C-A778-636054313AD7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mamorgen.Droid</RootNamespace>
