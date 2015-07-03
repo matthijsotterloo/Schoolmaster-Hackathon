@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseWidget xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mamorgen="clr-namespace:Mamorgen"
+             x:Class="Mamorgen.Widgets.TimerWidget"
+             >
+    <StackLayout Orientation="Vertical" BackgroundColor="White">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+      
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+      
+                <Label x:Name="Uur" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" />
+                <Label x:Name="Minuut" Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" />
+                <Label x:Name="Seconde" Grid.Row="0" Grid.Column="4" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" />
+      
+                <Label Text=":" Grid.Row="0" Grid.RowSpan="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" />
+                <Label Text=":" Grid.Row="0" Grid.RowSpan="1" Grid.Column="3" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" />
+      
+                <Label Text="uur" Grid.Row="1" Grid.Column="0" XAlign="Center" YAlign="Start" TextColor="Black" />
+                <Label Text="min" Grid.Row="1" Grid.Column="2" XAlign="Center" YAlign="Start" TextColor="Black" />
+                <Label Text="sec" Grid.Row="1" Grid.Column="4" XAlign="Center" YAlign="Start" TextColor="Black" />
+           </Grid>
+       </StackLayout>
+        <Label x:Name="Tot" Text="Tot ???" HorizontalOptions="Center"  TextColor="Black" FontSize="Medium"/>
+    </StackLayout>
+</BaseWidget>

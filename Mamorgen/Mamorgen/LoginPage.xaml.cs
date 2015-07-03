@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Mamorgen
@@ -10,7 +10,22 @@ namespace Mamorgen
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            loginButton.Clicked += LogIn;
+			schoolSelect.Clicked += async (object sender, EventArgs e) => {
+				await Navigation.PushModalAsync(new SchoolPickerPage(this), true);
+			};
 		}
-	}
+
+        private void LogIn(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new WidgetPage(), this);
+            Navigation.PopAsync(true);
+        }
+
+		public void SelectSchool(Magister.School school)
+		{
+			
+		}
+    }
 }
 

@@ -7,6 +7,19 @@ namespace Mamorgen
 {
     public class Magister
     {
+		public struct School
+		{
+			public string Name;
+			public string Url;
+		}
+
+		public static async Task<List<School>> GetSchools(string seearchFor)
+		{
+			return new List<School> () {
+				new School () { Name = "Magister Test College", Url = "https://appcontest.zenacc.nl/" }
+			};
+		}
+
         /// <summary>
         /// Name of the school
         /// </summary>
