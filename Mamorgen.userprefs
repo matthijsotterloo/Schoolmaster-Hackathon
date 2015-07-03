@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Droid\Mamorgen.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/4.5/Microsoft.CSharp.targets">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Android_Wear_Square_API_20" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mamorgen\Mamorgen.cs">
     <Files>
-      <File FileName="Mamorgen/Mamorgen.iOS/Info.plist" />
-      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/4.0.2/lib/mono/4.5/Microsoft.CSharp.targets" Line="29" Column="2" />
+      <File FileName="Mamorgen\Mamorgen.cs" Line="12" Column="31" />
+      <File FileName="Mamorgen\LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Mamorgen\LoginPage.xaml" Line="5" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
