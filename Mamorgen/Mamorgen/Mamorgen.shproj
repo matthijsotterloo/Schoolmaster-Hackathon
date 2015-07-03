@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
-=======
-﻿<?xml version="1.0" encoding="utf-8"?>
->>>>>>> 1a6a1996bfce289616428ece22f89056e8885a16
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <ProjectGuid>92dcbac9-b69b-4b92-936b-2c83d5aaff3e</ProjectGuid>
