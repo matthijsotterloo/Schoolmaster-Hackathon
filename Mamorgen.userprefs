@@ -1,11 +1,17 @@
 ﻿<Properties StartupItem="Mamorgen\Mamorgen.Droid\Mamorgen.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Android_Wear_Square_API_20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mamorgen\Mamorgen\LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.03157df3c9c5a213" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mamorgen\Mamorgen\SchoolPickerPage.xaml.cs">
     <Files>
-      <File FileName="Mamorgen\Mamorgen\App.cs" Line="23" Column="7" />
+      <File FileName="Mamorgen\Mamorgen\App.cs" Line="1" Column="1" />
       <File FileName="Mamorgen\Mamorgen.Droid\MainActivity.cs" Line="15" Column="51" />
-      <File FileName="Mamorgen\Mamorgen\LoginPage.xaml" Line="13" Column="12" />
-      <File FileName="Mamorgen\Mamorgen\LoginPage.xaml.cs" Line="14" Column="32" />
+      <File FileName="Mamorgen\Mamorgen\LoginPage.xaml" Line="16" Column="11" />
+      <File FileName="Mamorgen\Mamorgen\LoginPage.xaml.cs" Line="15" Column="69" />
+      <File FileName="Mamorgen\Mamorgen\SchoolPickerPage.xaml" Line="7" Column="2" />
+      <File FileName="Mamorgen\Mamorgen\SchoolPickerPage.xaml.cs" Line="26" Column="54" />
+      <File FileName="Mamorgen\Mamorgen\Magister.cs" Line="20" Column="6" />
+      <File FileName="Mamorgen\Mamorgen\Widgets\ThingWidget.xaml" Line="1" Column="1" />
+      <File FileName="Mamorgen\Mamorgen\Widgets\TimerWidget.xaml" Line="1" Column="1" />
+      <File FileName="Mamorgen\Mamorgen\Widgets\TimerWidget.xaml.cs" Line="26" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

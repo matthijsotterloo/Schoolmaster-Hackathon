@@ -11,6 +11,9 @@ namespace Mamorgen
 		{
 			InitializeComponent ();
             loginButton.Clicked += LogIn;
+			schoolSelect.Clicked += async (object sender, EventArgs e) => {
+				await Navigation.PushModalAsync(new SchoolPickerPage(this), true);
+			};
 		}
 
         private void LogIn(object sender, EventArgs e)
@@ -18,6 +21,11 @@ namespace Mamorgen
             Navigation.InsertPageBefore(new WidgetPage(), this);
             Navigation.PopAsync(true);
         }
+
+		public void SelectSchool(Magister.School school)
+		{
+			
+		}
     }
 }
 
