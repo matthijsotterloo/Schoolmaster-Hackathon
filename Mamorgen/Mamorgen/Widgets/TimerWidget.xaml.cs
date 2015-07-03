@@ -25,12 +25,15 @@ namespace Mamorgen.Widgets
 
         private SynchronizationContext _SyncContext;
 
-		public TimerWidget (DateTime tickTo)
+		public TimerWidget (string Tot, DateTime tickTo)
 		{
+            InitializeComponent();
+
             _SyncContext = SynchronizationContext.Current;
             TickTo = tickTo;
-            InitializeComponent ();
             TickTimer = new Timer((state) => UpdateTimer(), null, 1000, 1000);
+
+            this.Tot.Text = Tot;
             UpdateTimer();
 		}
 

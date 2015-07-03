@@ -19,7 +19,7 @@ namespace Mamorgen
                 Spacing = 20
 			};
 
-            AddWidget(new Widgets.TimerWidget(new DateTime(2015, 07, 03, 17, 00, 00)));
+            AddWidget(new Widgets.TimerWidget("Tot 2015-07-03 17:00:00", new DateTime(2015, 07, 03, 17, 00, 00)));
 		}
 
         public void AddWidget(BaseWidget widget)
