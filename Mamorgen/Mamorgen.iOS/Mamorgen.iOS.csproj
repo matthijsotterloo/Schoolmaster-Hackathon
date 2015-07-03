@@ -145,4 +145,8 @@
   </ItemGroup>
   <Import Project="..\Mamorgen\Mamorgen.projitems" Label="Shared" Condition="Exists('..\Mamorgen\Mamorgen.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo.png" />
+    <BundleResource Include="Resources\Text.png" />
+  </ItemGroup>
 </Project>

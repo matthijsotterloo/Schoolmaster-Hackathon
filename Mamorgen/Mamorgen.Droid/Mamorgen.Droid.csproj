@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>2c7c3898-23fb-44af-a311-bf288d8aa2a5</ProjectGuid>
+    <ProjectGuid>{2C7C3898-23FB-44AF-A311-BF288D8AA2A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Mamorgen.Droid</RootNamespace>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
