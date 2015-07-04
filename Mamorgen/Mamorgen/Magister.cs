@@ -9,8 +9,8 @@ namespace Mamorgen
     {
 		public struct School
 		{
-			public string Name;
-			public string Url;
+			public string Name { get; set; }
+			public string Url { get; set; }
 		}
 
 		public static async Task<List<School>> GetSchools(string seearchFor)

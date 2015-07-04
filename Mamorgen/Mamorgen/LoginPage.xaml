@@ -4,18 +4,18 @@
 	x:Class="Mamorgen.LoginPage"
 	BackgroundColor="#999999">
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="Center" Padding="50" Spacing=" 25" >
+		<StackLayout VerticalOptions="Center" Padding="50" Spacing="5" >
 			<Grid>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="auto" />
 					<ColumnDefinition Width="*" />
 				</Grid.ColumnDefinitions>
 
-				<Button x:Name="schoolSelect" Grid.Column="0" >Pick</Button>
-				<Label x:Name="schoolName" Grid.Column="1" />
+                <Button x:Name="schoolSelect" Grid.Column="0" Text="Kies" />
+				<Label x:Name="schoolName" Grid.Column="1" TextColor="White" YAlign="Center" />
 			</Grid>
 			<Entry x:Name="username" Placeholder="username"/>
-			<Entry x:Name="password" Placeholder="password"/>
+			<Entry IsPassword="True" x:Name="password" Placeholder="password"/>
 			<Button x:Name="loginButton" Text="Login" BackgroundColor="#AD55EF"/>
 		</StackLayout>
 	</ContentPage.Content>

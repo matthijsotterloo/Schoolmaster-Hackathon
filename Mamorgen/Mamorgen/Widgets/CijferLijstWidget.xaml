@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mamorgen:BaseWidget xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:mamorgen="clr-namespace:Mamorgen"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamorgen.Widgets.CijferLijstWidget">
+    <ListView x:Name="CijferLijst">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="128" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="128" />
+                    </Grid.RowDefinitions>
+
+                    <Label BackgroundColor="#eeeeee" FontSize="Large" XAlign="Center" YAlign="Center" Grid.Row="0" Grid.Column="0" Text="{Binding Cijfer}" />
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Grid.Row="0" Grid.Column="1">
+                        <Label FontAttributes="Bold" TextColor="Black" Text="{Binding Vak}"/>
+                        <Label TextColor="Black" Text="{Binding Datum}"/>
+                    </StackLayout>
+                </Grid>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+            </ListView.ItemTemplate>
+    </ListView>
+</mamorgen:BaseWidget>

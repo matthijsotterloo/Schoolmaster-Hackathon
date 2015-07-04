@@ -16,8 +16,8 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Magister.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WidgetPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Widgets\ThingWidget.xaml.cs">
-      <DependentUpon>ThingWidget.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Widgets\CijferLijstWidget.xaml.cs">
+      <DependentUpon>CijferLijstWidget.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Widgets\TimerWidget.xaml.cs">
@@ -37,13 +37,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Widgets\ThingWidget.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Widgets\TimerWidget.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Widgets\TimerWidget.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Widgets\CijferLijstWidget.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

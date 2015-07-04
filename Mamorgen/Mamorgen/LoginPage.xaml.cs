@@ -22,9 +22,12 @@ namespace Mamorgen
             Navigation.PopAsync(true);
         }
 
+        public string apiEndpoint;
+
 		public void SelectSchool(Magister.School school)
 		{
-			
+            apiEndpoint = school.Url + "/api";
+            schoolName.Text = school.Name;
 		}
     }
 }

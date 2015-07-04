@@ -13,6 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mamorgen.Droid", "Mamorgen\
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Mamorgen\Mamorgen\Mamorgen.projitems*{b6d0e65f-e1cd-4b34-9432-ffd0f73a064d}*SharedItemsImports = 4
+		Mamorgen\Mamorgen\Mamorgen.projitems*{92dcbac9-b69b-4b92-936b-2c83d5aaff3e}*SharedItemsImports = 13
+		Mamorgen\Mamorgen\Mamorgen.projitems*{6c74e472-383e-457c-a778-636054313ad7}*SharedItemsImports = 4
 		Mamorgen\Mamorgen\Mamorgen.projitems*{9bbf9f27-4b8c-4edf-9a21-adeb058fc237}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
