@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10:12"
+                android:textColor="@color/whiteText"
+                android:textSize="50dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vr. 3 Juli 2015"
+                android:textColor="@color/whiteText"
+                android:textSize="28dp"
+                android:gravity="center"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+
+                        <TextView
+                            android:id="@+id/TVUren"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:layout_toLeftOf="@+id/TVDividerOne"
+                            android:textSize="40dp"
+                            android:text="00"/>
+
+                        <TextView
+                            android:id="@+id/TVDividerOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:layout_toLeftOf="@+id/TVMinuten"
+                            android:textSize="40dp"
+                            android:text=":"/>
+
+                        <TextView
+                            android:id="@+id/TVMinuten"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:layout_centerHorizontal="true"
+                            android:textSize="40dp"
+                            android:text="03"/>
+
+                        <TextView
+                            android:id="@+id/TVDividerTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:layout_toRightOf="@+id/TVMinuten"
+                            android:textSize="40dp"
+                            android:text=":"/>
+
+                        <TextView
+                            android:id="@+id/TVSeconden"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:layout_toRightOf="@+id/TVDividerTwo"
+                            android:textSize="40dp"
+                            android:text="58"/>
+
+                        <TextView
+                            android:id="@+id/TVUrenLabel"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_below="@+id/TVUren"
+                            android:textSize="20dp"
+                            android:layout_alignLeft="@+id/TVUren"
+                            android:gravity="center"
+                            android:text="uur"/>
+
+                        <TextView
+                            android:id="@+id/TVMinutenLabel"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_below="@+id/TVMinuten"
+                            android:textSize="20dp"
+                            android:layout_alignLeft="@+id/TVMinuten"
+                            android:gravity="center"
+                            android:text="min"/>
+
+                        <TextView
+                            android:id="@+id/TVSecondenLabel"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_below="@+id/TVSeconden"
+                            android:textSize="20dp"
+                            android:layout_alignLeft="@+id/TVSeconden"
+                            android:gravity="center"
+                            android:text="sec"/>
+
+                        <TextView
+                            android:id="@+id/TVTimerDesc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_below="@+id/TVUrenLabel"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="tot je volgende les:"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/primaryColorWhiteMixedWhite"
+                        android:paddingBottom="20dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/primaryColor"/>
+
+                        <TextView
+                            android:id="@+id/TVLesuur"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:textColor="@color/blackText"
+                            android:textSize="30dp"
+                            android:gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_centerVertical="true"
+                            android:background="@color/white"
+                            android:text="2"/>
+
+                        <TextView
+                            android:id="@+id/TVVak"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:textSize="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/TVLesuur"
+                            android:text="Economie"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blackText"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/TVLesuur"
+                            android:layout_below="@+id/TVVak"
+                            android:text="DHA - C104"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cijfers vandaag:"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/whiteText"
+                android:textSize="28dp"
+                android:layout_marginTop="30dp"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primaryColorWhiteMixedWhite"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:textSize="40dp"
+                        android:gravity="center"
+                        android:text="7,6"
+                        android:textColor="@color/blackText"
+                        android:background="@color/primaryColorWhiteMixedPrimaryColor"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:text="Aardijkskunde"
+                            android:textColor="@color/blackText"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:text="Hoofdstuk 2"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:text="do 3 juli 10:09"
+                            android:textColor="@color/blackTextSecondary"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="20dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
